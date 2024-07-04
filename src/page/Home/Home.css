@@ -1,0 +1,186 @@
+.strip {
+    background-color: #06466b;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+   
+  }
+  
+  .strip h3 {
+    text-align: center;
+    color: #ffff;
+  }
+  .strip p {
+    color: #ffff;
+  }
+  
+  .para {}
+  
+  .strip p {
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0rem 15rem;
+  }
+  
+  .about_section {
+    display: flex;
+    margin-top: 2rem;
+    gap: 5rem;
+    padding: 0rem 10rem;
+    align-items: center;
+  }
+  
+  .about_section img {
+    width: 44%;
+    height: 40%;
+  }
+  
+  .about_section h1 {
+    font-size: 2.5rem;
+    font-weight: 20;
+  }
+  
+  .about_section p {
+    font-size: 1.4rem;
+    font-weight: 20;
+  }
+  
+  /* Why section */
+  .why_section {
+    justify-content: center;
+   
+  }
+  
+  .why_main {
+    background-color: #5aadd8;
+    padding: 60px;
+    justify-content: center;
+  }
+  
+  .item_two {
+    background-color:#ffff;
+    padding: 25px;
+    align-items: center;
+  }
+  .item_two img{
+    height: 21rem;
+    border: 6px solid #5aadd8;
+    margin: 15px;
+  }
+  .why_section ul{
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+   
+  }
+  .why_section ul li{
+    color: black;
+  }
+
+  
+  /* Product section */
+  .products h1 {
+    text-align: center;
+  }
+  
+  .products p {
+    text-align: center;
+  }
+  .item{
+    display: flex;
+  }
+  
+  /* Card container */
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* Card */
+  .card {
+    position: relative;
+    width: 200px;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-image {
+    position: relative;
+  }
+  
+  .card-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-text {
+    position: absolute;
+    /* top: 0; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .card-text h3 {
+    margin: 0 0 10px 0;
+  }
+  
+  .card-text p {
+    margin: 0;
+  }
+  
+  /* Footer */
+  .uper_footer {
+    background-color: #06466b;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .uper_footer h2 {
+    color: #fff;
+  }
+  
+  .uper_footer p {
+    color: #5790b1;
+  }
+  
+  .footer_button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer_button button {
+    background-color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .footer_button button a {
+    text-decoration: none;
+    color: #06466b;
+  }
+  
+  .footer_button h3 {
+    color: #fff;
+  }
+  .iim{
+    background-image: url('../../img/coc.jpg');
+  }
+  
