@@ -1,0 +1,17 @@
+.product-item{
+ align-items:flex-end;
+}
+.product-item h1{
+  font-size: 10px;
+  align-items: flex-end;
+}
+.product-item h2{
+    align-items: flex-end;
+    justify-content: flex-end;
+    align-self: flex-start;
+}
+.product-item img{
+    width: 100%;
+    justify-content: center;
+    height: auto;
+}
